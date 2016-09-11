@@ -28,6 +28,13 @@ class UsersController extends AppController
         }
     }
 
+    public function register()
+    {
+        if ($this->Request->isPost) {
+            $this->Auth->register($this->User, $this->Request->data);
+        }
+    }
+
     public function logout()
     {
         CSRFTool::removeToken();

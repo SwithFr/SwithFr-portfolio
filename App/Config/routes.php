@@ -27,7 +27,7 @@ Router::get('realisations', [
 ]);
 
 # Log in
-Router::get('connect', [
+Router::any('connect', [
     "controller" => 'users',
     "action"     => 'connect'
 ]);

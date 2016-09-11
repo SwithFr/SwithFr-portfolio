@@ -37,7 +37,7 @@ use App\Config\App; ?>
 
 <div class="ct">
     <div class="header header--left">
-        <a class="header__homeLink" href="<?= Html::url('home'); ?>">
+        <a class="header__homeLink" href="<?= Html::url('accueil'); ?>">
             <svg width="120" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                  viewBox="0 0 249.9 295.8" enable-background="new 0 0 249.9 295.8" xml:space="preserve">
                     <path fill="#C94F45" d="M175.3,156.7C127.5,136.6,2,122.6,0.1,0c0,0-7.4,123.6,152.7,170.3L175.3,156.7z"/>
