@@ -8,6 +8,7 @@ use App\Config\App; ?>
     <meta name="author" content="Jeremy Smith"/>
     <meta name="description" content="<?= $metas->description; ?>"/>
     <meta name="keywords" content="<?= $metas->keywords; ?>"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">
     <link rel="icon" type="image/png" href="favicon.png" />
     <title>
         <?php if(isset($metas->title) && !empty($metas->title)): ?>
@@ -47,13 +48,13 @@ use App\Config\App; ?>
 
         <ul class="nav">
             <li class="nav__item nav__item--bordered">
-                <?= Html::link("about", "À propos", null, ['title' => 'Apprenez en plus sur moi']); ?>
+                <?= Html::link("a-propos", "À propos", null, ['title' => 'Apprenez en plus sur moi']); ?>
             </li>
             <li class="nav__item nav__item--bordered">
-                <?= Html::link("works", "Réalisations", null, ['title' => 'Découvrez mes projets']); ?>
+                <?= Html::link("realisations", "Réalisations", null, ['title' => 'Découvrez mes projets']); ?>
             </li>
             <li class="nav__item">
-                <?= Html::link("contact-me", "Contact", null, ['title' => 'Contactez moi']); ?>
+                <?= Html::link("me-contacter", "Contact", null, ['title' => 'Contactez moi']); ?>
             </li>
         </ul>
         <ul class="nav">

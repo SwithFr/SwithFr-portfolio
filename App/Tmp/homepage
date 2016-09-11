@@ -14,9 +14,9 @@
             <a href='/MY_SITES/SwithV6/me-contacter' title='Contactez moi'  >Contact</a>        </li>
     </ul>
     <ul class="nav">
-        <li class="nav__item nav__item--scl"><a title="Visitez ma page twitter" href="https://twitter.com/SwithFr"><img src=/MY_SITES/SwithV6/App/Webroot//img/t.svg alt="Logo twitter"></a></li>
-        <li class="nav__item nav__item--scl"><a title="Visitez ma page GitHub" href="https://github.com/SwithFr"><img src=/MY_SITES/SwithV6/App/Webroot//img/github.svg alt="Logo GitHub"></a></li>
-        <li class="nav__item nav__item--scl"><a title="Visitez ma page Linkedin" href="https://fr.linkedin.com/pub/jérémy-smith/45/973/445"><img src=/MY_SITES/SwithV6/App/Webroot//img/linkedin.svg alt="Logo Linkedin"></a></li>
+        <li class="nav__item nav__item--scl"><a title="Visitez ma page twitter" href="https://twitter.com/SwithFr"><img src=/MY_SITES/SwithV6/App/Webroot/img/t.svg alt="Logo twitter"></a></li>
+        <li class="nav__item nav__item--scl"><a title="Visitez ma page GitHub" href="https://github.com/SwithFr"><img src=/MY_SITES/SwithV6/App/Webroot/img/github.svg alt="Logo GitHub"></a></li>
+        <li class="nav__item nav__item--scl"><a title="Visitez ma page Linkedin" href="https://fr.linkedin.com/pub/jérémy-smith/45/973/445"><img src=/MY_SITES/SwithV6/App/Webroot/img/linkedin.svg alt="Logo Linkedin"></a></li>
     </ul>
 </div>
 <div class="vcard">

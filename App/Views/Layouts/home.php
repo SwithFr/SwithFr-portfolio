@@ -8,6 +8,7 @@ use App\Config\App; ?>
     <meta name="author" content="Jeremy Smith"/>
     <meta name="description" content="<?= $metas->description; ?>"/>
     <meta name="keywords" content="<?= $metas->keywords; ?>"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">
     <link rel="icon" type="image/png" href="favicon.png" />
     <title>
         <?php if(isset($metas->title) && !empty($metas->title)): ?>
