@@ -1,0 +1,33 @@
+.adminForm {
+  position: absolute;
+  height: 450px;
+  width: 336px;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+  right: 0;
+  z-index: 1000;
+  padding: 1em 2.5em;
+
+  color: #fff;
+
+  background-color: $red;
+}
+
+.adminForm__input, .adminForm__label {
+  display: block;
+  width: 100%;
+  margin-bottom: .5em;
+
+  font-size: 1em;
+
+  outline: none;
+}
+
+.adminForm__submit {
+  padding: .5em 1em;
+
+  font-size: 1em;
+
+  border: none;
+  background-color: #fff;
+}

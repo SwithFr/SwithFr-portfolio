@@ -1,0 +1,31 @@
+.adminToolBar {
+    position: absolute;
+    top: .6em;
+    right: 0;
+
+    font-family: 'fira_sansregular';
+
+    a {
+        padding: 0 .3em;
+    }
+}
+
+.adminToolBar__link--edit {
+    color: $lightGrey;
+}
+
+.adminToolBar__link--delete{
+    color: $red;
+}
+
+.adminToolBar__link--save{
+    display: none;
+
+    color: $green;
+}
+
+.adminToolBar__link--abort{
+    display: none;
+
+    color: $red;
+}

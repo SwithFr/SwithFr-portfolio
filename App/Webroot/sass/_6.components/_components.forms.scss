@@ -1,0 +1,81 @@
+.contact {
+    padding: 7em 15em 0;
+}
+
+.contact__form {
+
+}
+
+.contact__form__label--placeholder {
+    position: relative;
+    bottom: 2.5em;
+
+    @include transition(bottom, $transitionDuration);
+}
+
+.contact__form__input:focus+.contact__form__label,
+.contact__form__input[value]:not([value=""])+.contact__form__label {
+    bottom: 4em;
+
+    color: $lightGrey;
+}
+
+.contact__form__label, .contact__form__input, .contact__form__textarea {
+    display: block;
+
+    font-size: 1em;
+    font-family: "fira_sanslight";
+
+    outline: none;
+}
+
+.contact__form__label, .contact__form__input {
+    @include noBorder;
+
+    &:hover {
+      cursor: text;
+    }
+}
+
+.contact__form__input {
+    margin-bottom: 1em;
+
+    border-bottom:1px solid $lightGrey;
+}
+
+.contact__form__label__ex {
+    font-style: italic;
+    color: $lightGrey;
+    font-size: .8em;
+}
+
+.contact__form__textarea {
+    resize: none;
+}
+
+.contact__form__submit {
+    margin-top: 2em;
+    padding: .7em 2em;
+    float: right;
+
+    font-size: 1em;
+    font-family: 'fira_sanslight';
+
+    border: 1px solid $red;
+    background-color: transparent;
+    @include transition(all, $transitionDuration);
+  
+    &:hover {
+      color: #fff;
+      
+      background-color: $red;
+    }
+}
+
+.has-error {
+  float: right;
+  font-size: .8em;
+  font-style: italic;
+
+  color: $red;
+}

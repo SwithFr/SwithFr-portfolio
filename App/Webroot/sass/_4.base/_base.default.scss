@@ -1,0 +1,27 @@
+body, html {
+    width: 100%;
+    height: 100%;
+
+    font: $fontStack;
+    color: $black;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+svg {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 1.5em 0;
+}
+
+input[type='submit']:hover {
+    cursor: pointer;
+}

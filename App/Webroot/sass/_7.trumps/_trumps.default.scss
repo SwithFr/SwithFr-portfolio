@@ -1,0 +1,24 @@
+@import "trumps.header";
+@import "trumps.header";
+@import "trumps.about";
+@import "trumps.nav";
+@import "trumps.content";
+@import "trumps.works";
+@import "trumps.work";
+@import "trumps.contact";
+
+
+
+@media screen and (max-width: 815px) {
+
+    .wrap {
+      display: block;
+      padding-top: 9em;
+      padding-left: 0;
+    }
+
+    .header--left svg {
+        width: 50px;
+    }
+
+}

@@ -1,0 +1,22 @@
+.editForm__input {
+    border: 1px dashed $lightGrey;
+    outline: none;
+}
+
+.editForm__input--title {
+    padding: 0 .3em;
+
+    color: $red;
+    font-family: "fira_sansregular";
+    font-size: 1.5em;
+}
+
+.editForm__input--description {
+    padding: .3em;
+    width: 98%;
+
+    font-size: 1.1em;
+    font-family: "fira_sanslight";
+
+    resize: vertical;
+}

@@ -1,0 +1,33 @@
+.content {
+  padding: 15em;
+  max-width: 800px;
+  margin: 0 auto;
+
+  @include transition(padding, $transitionDuration);
+
+  p {
+      margin: 1em 0;
+  }
+}
+
+.content__title {
+  margin-bottom: 0em;
+
+  text-transform: uppercase;
+  color: $red;
+  font-size: 3.5em;
+  font-family: 'fira_sansbold';
+}
+
+.content__subtitle {
+  display: block;
+  margin-bottom: 2.5em;
+
+  font-size: 1.1em;
+  color: $gold;
+  font-family: "fira_sanslight";
+}
+
+.content__text {
+  color: $black;
+}

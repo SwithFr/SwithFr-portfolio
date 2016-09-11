@@ -1,0 +1,39 @@
+/*------------------------------------*\
+    SETTINGS
+\*------------------------------------*/
+@import "_1.settings/settings.default";
+
+/*------------------------------------*\
+    TOOLS
+\*------------------------------------*/
+@import "_2.tools/tools.default";
+
+/*------------------------------------*\
+    GENERIC
+\*------------------------------------*/
+@import "_3.generic/generic.default";
+@import "_3.generic/generic.custom";
+
+/*------------------------------------*\
+    BASE
+\*------------------------------------*/
+@import "_4.base/base.default";
+
+/*------------------------------------*\
+    OBJECTS
+\*------------------------------------*/
+@import "_5.objects/objects.default";
+@import "_5.objects/objects.content";
+@import "_5.objects/objects.work";
+@import "_5.objects/objects.adminToolBar";
+@import "_5.objects/objects.alert";
+
+/*------------------------------------*\
+    COMPONENTS
+\*------------------------------------*/
+@import "_6.components/components.default";
+
+/*------------------------------------*\
+    TRUMPS
+\*------------------------------------*/
+@import "_7.trumps/trumps.default";

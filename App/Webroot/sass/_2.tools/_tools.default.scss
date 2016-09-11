@@ -1,0 +1,9 @@
+@mixin transition( $property, $duration ) {
+    transition: $property $duration;
+}
+
+@mixin noBorder {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}

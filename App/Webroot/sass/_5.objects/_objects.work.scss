@@ -1,0 +1,66 @@
+.work {
+    margin-bottom: 3em;
+    position: relative;
+
+    font-size: 1em;
+
+    border-bottom: 1px dashed $lightGrey;
+}
+
+.work__title {
+  margin-bottom: .5em;
+
+    text-transform: none;
+    color: $red;
+    font-family: "fira_sansbold";
+    font-size: 2em;
+}
+
+.work__img {
+    margin: .5em 0;
+    position: relative;
+
+    img {
+        max-width: 100%;
+        width: 100%;
+
+        border: 1px solid $lightGrey;
+    }
+}
+
+.work__img__link {
+    &:after {
+        content: attr(title);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        bottom: 8px;
+        padding-top: 25%;
+
+        color: transparent;
+        text-align: center;
+
+        background-color: rgba(218, 52, 51, .8);
+        @include transition(all, $transitionDuration);
+        -webkit-transition-delay: .2s;
+        transition-delay: .2s;
+    }
+}
+
+.work__img__link:hover {
+    &:after {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: -1px;
+        bottom: 8px;
+
+        color: #fff;
+    }
+}
+
+.work__description {
+  font-size: 1em;
+}

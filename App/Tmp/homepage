@@ -1,0 +1,35 @@
+<div class="header header--center">
+    <svg width="120" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    	 viewBox="0 0 249.9 295.8" enable-background="new 0 0 249.9 295.8" xml:space="preserve">
+        <path fill="#C94F45" d="M175.3,156.7C127.5,136.6,2,122.6,0.1,0c0,0-7.4,123.6,152.7,170.3L175.3,156.7z"/>
+        <path fill="#C94F45" d="M75.1,163.9c47.7,20.1,173.3,35.2,174.8,131.8c0,0,7.8-98.8-152.3-145.5L75.1,163.9z"/>
+    </svg>
+    <h1 class="header__title">Jeremy <span class="colored">Smith</span><span class="header__subtitle">Développeur <span>w</span>eb</span></h1>
+    <ul class="nav">
+        <li class="nav__item nav__item--bordered">
+            <a href='/MY_SITES/SwithV6/a-propos' title='Apprenez en plus sur moi'  >À propos</a>        </li>
+        <li class="nav__item nav__item--bordered">
+            <a href='/MY_SITES/SwithV6/realisations' title='Découvrez mes projets'  >Réalisations</a>        </li>
+        <li class="nav__item">
+            <a href='/MY_SITES/SwithV6/me-contacter' title='Contactez moi'  >Contact</a>        </li>
+    </ul>
+    <ul class="nav">
+        <li class="nav__item nav__item--scl"><a title="Visitez ma page twitter" href="https://twitter.com/SwithFr"><img src=/MY_SITES/SwithV6/App/Webroot//img/t.svg alt="Logo twitter"></a></li>
+        <li class="nav__item nav__item--scl"><a title="Visitez ma page GitHub" href="https://github.com/SwithFr"><img src=/MY_SITES/SwithV6/App/Webroot//img/github.svg alt="Logo GitHub"></a></li>
+        <li class="nav__item nav__item--scl"><a title="Visitez ma page Linkedin" href="https://fr.linkedin.com/pub/jérémy-smith/45/973/445"><img src=/MY_SITES/SwithV6/App/Webroot//img/linkedin.svg alt="Logo Linkedin"></a></li>
+    </ul>
+</div>
+<div class="vcard">
+    <span class="fn">Jeremy Smith</span>
+    <a class="email" href="mailto:johayeux@gmail.com">johayeux@gmail.com</a>
+    <div class="adr">
+        <div class="street-address">Chemin des Platières</div>
+        <span class="locality">St Pierre de Boeuf</span>
+        ,
+        <span class="postal-code">42520</span>
+
+        <span class="country-name">France</span>
+
+    </div>
+    <div class="tel">0683213008</div>
+</div>

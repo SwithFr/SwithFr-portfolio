@@ -1,0 +1,41 @@
+@media screen and (max-width: 1070px) {
+
+  .ct, .header--left {
+    min-width: 350px;
+  }
+
+}
+
+@media screen and (max-width: 815px) {
+
+  .ct, .header--left {
+    display: block;
+    z-index: 100;
+    margin: 0 auto;
+
+    text-align: center;
+
+    background-color: #fff;
+  }
+
+  .ct {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 1em;
+
+    border-right: none;
+    border-bottom: 1px dashed $lightGrey;
+    box-shadow: 0 1px 10px #bbb;
+  }
+
+  .header--left .header__title, .header--left .header__subtitle, .header--left .header__subtitle span {
+    display: none;
+  }
+
+  .header--center {
+    position: absolute;
+    top: calc(50% - 150px);
+  }
+
+}
