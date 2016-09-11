@@ -1,5 +1,4 @@
 <?php use Core\Helpers\Html; ?>
-<?php if (!\Core\Components\Cache::start('homepage')): ?>
 <div class="header header--center">
     <svg width="120" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
     	 viewBox="0 0 249.9 295.8" enable-background="new 0 0 249.9 295.8" xml:space="preserve">
@@ -24,4 +23,4 @@
         <li class="nav__item nav__item--scl"><a title="Visitez ma page Linkedin" href="https://fr.linkedin.com/pub/jérémy-smith/45/973/445"><?= \Core\Helpers\Html::img('linkedin.svg', 'Logo Linkedin'); ?></a></li>
     </ul>
 </div>
-<?= $this->Element('vcard'); endif; \Core\Components\Cache::end();
+<?= $this->Element('vcard') ?>
